@@ -1,0 +1,14 @@
+---
+layout: default
+hello_world: "Hello World com Liquid!"
+tags:
+  - jekyll
+  - blog
+  - minimalista
+---
+
+<h1>{{ page.hello_world }}</h1>
+
+{% for tag in tags %}
+  <h2>{{ page.tag }}</h2>
+{% endfor %}
